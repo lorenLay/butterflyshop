@@ -1,0 +1,100 @@
+     *{
+         margin:0;
+         padding:0;
+         font-family:'Merriweather',serif;
+     }
+     .container{
+         height: 100vh;
+         width: 100%;
+         background-image: url(background1.jpeg);
+         background-position: center;
+         background-size: cover;
+     }
+     
+     .start{
+         width: 100%;
+         height: 15vh;
+         margin: auto;
+         display: flex;
+         align-items: center;
+         
+     }
+
+     .logo{
+         width: 60px;
+         cursor: pointer;
+         border-radius: 80%;
+         margin-left:30px;
+         margin-top: 2px;
+     }
+
+     .cart{
+        width: 40px;
+        cursor: pointer;
+        margin-right:30px;
+        border-radius: 40%;
+        margin-top: 2px;
+    }
+
+    nav{
+         flex: 1;
+         padding-left: 60px;
+        }
+    
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 0px 20px;
+            
+        }
+
+        nav ul li a{
+            text-decoration:none;
+            color:#333;
+            font-size: 19px;
+        }
+        .content h1{
+            font-size: 50px;
+            font-weight: 100;
+            color: #232d60;
+            margin-top: 40px;
+            margin-left: 30px;
+            
+            
+        }
+        .content p{
+            font-size: 30px;
+            color: #232d60;
+            margin-top: 40px;
+            margin-left: 43px;
+            
+            
+        }
+        .content {
+            margin-left:10%;
+            margin-top: 8%;
+            background:rgba(255,255,255,0.4);
+            backdrop-filter: blur(30px), Opacity(0.1);
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.3);
+            border-top: 1px solid rgba(255,255,255,.3);
+            border-left: 1px solid rgba(255,255,255,.3);
+            width:40%;
+            height:50%;
+        }
+        .content .btn{
+            display: inline-block;
+            background: linear-gradient( rgb(205, 143, 230), rgb(226, 164, 205),lightpink);
+            border-radius: 6px;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            text-decoration:none;
+            color: #fff;
+            box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+            margin-left: 40px;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+      
+      
+       
